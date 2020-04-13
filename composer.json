@@ -1,0 +1,28 @@
+{
+  "name": "james/tree",
+  "description": "包测试",
+  "authors": [
+    {
+      "name": "James",
+      "email": "jianchao_zhao@fabriciechina.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "James\\TreeClass\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "James\\TreeClass\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "James\\TreeClass\\TreeClassServiceProvider"
+      ]
+    }
+  }
+}
