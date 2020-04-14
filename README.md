@@ -17,24 +17,32 @@ cd 到tree目录  composer init 生成composer.json
 
 配置composer.json 
 
-`{
-    ·
-    ·
-    ·
+```
+{
+
     "autoload": {
+
         "psr-4": {
-            "James\\TreeClass\\": "src/"  //应该是命名空间指向路径
+
+            "James\TreeClass\": "src/"  //应该是命名空间指向路径
+
         }
+
     },
+
     "autoload-dev": {
+
         "psr-4": {
-            "James\\TreeClass\\Tests\\": "tests/"
+
+            "James\TreeClass\Tests\": "tests/"
+
         }
+
     },
-    ·
-    ·
-    ·
+
 }
+
+```
 
 
 
